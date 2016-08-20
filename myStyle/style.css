@@ -235,3 +235,12 @@ i.fa-heart{
 .menu-ul li{
 	list-style-type: none;
 }
+@media only screen and (min-width: 768px) {
+    /* For desktop: */
+
+}
+
+@media only screen and (max-width: 767px) {
+    /* For desktop: */
+
+}
