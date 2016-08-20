@@ -4,8 +4,6 @@ body {
 	font-family: monospace; 
 }
 
-
-
 .container{
 	padding: 60px;
 	padding-top: 20px;
@@ -62,8 +60,8 @@ i{
 	    
 }
 
-p.s{
-	font-family: 
+p{
+	font-size: 16px; 
 }
 .col-xs-6{
 	padding: 0px;
@@ -116,8 +114,8 @@ p.s{
 }
 
 .footer{
-	margin-left: 80px;
-	margin-right: 50px;
+	margin-left: 100px;
+	margin-right: 60px;
 }
 
 .col-1{
@@ -234,4 +232,19 @@ i.fa-heart{
 }
 .menu-ul li{
 	list-style-type: none;
+}
+
+@media only screen and (max-width: 767px){
+	.footer{
+	margin-left: 130px;
+	margin-right: 130px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    
+    .footer{
+	margin-left: 100px;
+	margin-right: 60px;
+    }
 }
