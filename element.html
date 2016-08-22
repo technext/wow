@@ -13,7 +13,7 @@
 
 
 
-  <div class="features">
+  <div class="features" id="features">
   <div class="container">
 
     <legend>
@@ -26,9 +26,9 @@
      <div class="col-lg-6 col-xs-6" style="text-align:right">
            <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <center><a href="#">Home</a></center><hr>
-                <center><a href="#">Generic</a></center><hr>
-                <center><a href="#">Element</a></center>
+                <center><a href="index.html">Home</a></center><hr>
+                <center><a href="generic.html">Generic</a></center><hr>
+                <center><a href="element.html">Element</a></center>
                <br>
                 <ul class="menu-ul">
                   <li>
@@ -49,13 +49,16 @@
                 function openNav() {
                     document.getElementById("mySidenav").style.width = "250px";
                     document.getElementById("main").style.marginLeft = "250px";
+                    document.getElementById("features").style.backgroundColor = "rgba(0,0,0,0)";
                     document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+                    
                 }
 
                 function closeNav() {
                     document.getElementById("mySidenav").style.width = "0";
                     document.getElementById("main").style.marginLeft= "0";
                     document.body.style.backgroundColor = "white";
+                    document.getElementById("features").style.backgroundColor = "#f7f7f7";
                 }
         </script>
      </div>
@@ -65,17 +68,17 @@
     <hr width="5%" align="left">
     <h2><strong>Heading 1 With Paragraph</strong></h2>
     <p class="s">
-    	Lorem Ipsum available, but the majority have suffered This alteration in some form, by injected is a humour,<br> or randomised words which don`t look even sligh is made  believable. If  to use and yammi passage of Lorem Ipsum,<br> you need to be sure there isn`t by pioneer designer anything embarrassing hidden in the middle of text.
+    	Lorem Ipsum available, but the majority have suffered This alteration in some form, by injected is a humour, or randomised words which don`t look even sligh is made  believable. If  to use and yammi passage of Lorem Ipsum, you need to be sure there isn`t by pioneer designer anything embarrassing hidden in the middle of text.
     </p>
     <br>
     <h4><strong>Heading 2 With Paragraph</strong></h4>
     <p class="s">
-    	Lorem Ipsum available, but the majority have suffered This alteration in some form, by injected is a humour,<br> or randomised words which don`t look even sligh is made  believable. If  to use and yammi passage of Lorem Ipsum,<br> you need to be sure there isn`t by pioneer designer anything embarrassing hidden in the middle of text.
+    	Lorem Ipsum available, but the majority have suffered This alteration in some form, by injected is a humour, or randomised words which don`t look even sligh is made  believable. If  to use and yammi passage of Lorem Ipsum, you need to be sure there isn`t by pioneer designer anything embarrassing hidden in the middle of text.
     </p>
     <br>
     <h5><strong>Heading 3 With Paragraph</strong></h5>
     <p class="s">
-    	Lorem Ipsum available, but the majority have suffered This alteration in some form, by injected is a humour,<br> or randomised words which don`t look even sligh is made  believable. If  to use and yammi passage of Lorem Ipsum,<br> you need to be sure there isn`t by pioneer designer anything embarrassing hidden in the middle of text.
+    	Lorem Ipsum available, but the majority have suffered This alteration in some form, by injected is a humour, or randomised words which don`t look even sligh is made  believable. If  to use and yammi passage of Lorem Ipsum, you need to be sure there isn`t by pioneer designer anything embarrassing hidden in the middle of text.
     </p>
     <br>
     <h3>Blockquote</h3>
@@ -98,32 +101,32 @@
     <h3>Call for action</h3>
     <br>
     <div class="row" style="margin-left:2px">
-	    <button type="special" class="btn btn-primary" style="width:250px; height:35px">Special</button>&nbsp;&nbsp;&nbsp;
-		<button type="special" class="btn btn-primary" style="width:300px; height:28px">Fit</button>&nbsp;&nbsp;&nbsp;
-		<button type="special" class="btn btn-default" style="width:300px; height:28px">Fit</button>
+	    <button type="special" class="btn btn-primary" style="background-color: black;">Special</button>&nbsp;&nbsp;&nbsp;
+		<button type="special" class="btn btn-default" style="color: white; background-color: black;">Fit</button>&nbsp;&nbsp;&nbsp;
+		<button type="special" class="btn btn-default" style="color: black; background-color: white;">Fit</button>
     </div>
     <br>
     <div class="row" style="margin-left:2px">
-	    <button type="special" class="btn btn-default" style="width:250px; height:35px">Special</button>&nbsp;&nbsp;&nbsp;
-		<button type="special" class="btn btn-primary" style="width:300px; height:22px;">Fit+Small</button>&nbsp;&nbsp;&nbsp;
-		<button type="special" class="btn btn-primary" style="width:300px; height:22px;">Fit+Small</button>
+	    <button type="special" class="btn btn-primary" style="color: black; background-color: white;">Special</button>&nbsp;&nbsp;&nbsp;
+		<button type="special" class="btn btn-default" style="color: white; background-color: black; height:22px">Fit+Small</button>&nbsp;&nbsp;&nbsp;
+		<button type="special" class="btn btn-default" style="color: white; background-color: black; height:22px">Fit+Small</button>
     </div>
     <form>
     	<fieldset>
     		<h3>Form</h3>
     		<br>
     		<div class="row">
-    			<div class="col-lg-6">
+    			<div class="col-lg-6 col-sx-6 col-sm-6">
     				<input type="name" class="form-control" id="name" placeholder="Name">
     			</div>
-    			<div class="col-lg-6">
+    			<div class="col-lg-6  col-sx-6 col-sm-6">
     				<input type="email" class="form-control" id="email" placeholder="Email">
     			</div>
     			<br>
     		</div>
     		<div class="row" >
     		<br>
-				  <div class="col-lg-12">
+				  <div class="col-lg-12  col-sx-12 col-sm-12">
 				  	<select class="form-control" id="select">
 				  	    <option>-Select a catagory</option>
 					    <option>1</option>
@@ -136,8 +139,8 @@
 			<br>
 			<textarea class="form-control" rows="10" id="comment" placeholder="Message"></textarea>
 			<br>
-			        <button type="submit" class="btn btn-primary">Send message</button>
-			        <button type="reset" class="btn btn-default">Reset</button>
+			        <button type="submit" class="btn btn-primary" style=" width: 150px;color:white; background-color:black;">Send message</button>
+			        <button type="reset" class="btn btn-default" style="width:150px; height:35px;">Reset</button>
 
     	</fieldset>
     </form>
@@ -190,7 +193,7 @@
      		    <img class="round" src="assets/img/3.jpg">
      	</div>
 
-     	<div class="col-lg-9 col-xs-8" >
+     	<div class="col-lg-9 col-xs-9" >
      	  <h3>Tracking with controler</h3>
      	  <hr width="5%" align="left">
      	  <p class="s">

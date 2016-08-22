@@ -150,7 +150,6 @@ h1,h2,h4,h3,h5,span{
 p.s{
 	font-family: 'Crimson Text', serif;
 }
-
 .footer p{
 	font-family: 'Crimson Text', serif;
 	font-style: italic;
@@ -170,10 +169,11 @@ i.fa-heart{
 }
 .btn-primary{
 	border-radius: 20px;
-	background-color: black;
+	
 	font-family: 'Lora', serif;
     font-style: italic;
     font-size: 80%;
+    width:250px; height:35px
 }
 .btn-default{
    	border-radius: 20px;
@@ -183,6 +183,7 @@ i.fa-heart{
     padding-left: 20px;
     padding-right: 20px;
     font-size: 80%;
+    width:300px; height:28px
 }
 
 .sidenav {
@@ -235,12 +236,63 @@ i.fa-heart{
 .menu-ul li{
 	list-style-type: none;
 }
-@media only screen and (min-width: 768px) {
-    /* For desktop: */
 
+
+@media screen and (min-width: 769px) {
+    /* STYLES HERE */
 }
 
-@media only screen and (max-width: 767px) {
-    /* For desktop: */
+@media screen and (min-device-width: 481px) and (max-device-width: 768px) { 
+    .round{
+	display: table;
+	width: 220px;
+	height: 220px;
+	border-radius: 100%;
+    }
+}
+/*For mobile*/
+@media only screen and (max-device-width: 480px) {
+    .round{
+	display: table;
+	width: 180px;
+	height: 180px;
+	border-radius: 100%;
+	transform: translateY(40%);
+    }
+    .btn-primary{
+	border-radius: 20px;
+	font-family: 'Lora', serif;
+    font-style: italic;
+    font-size: 90%;
+    width:150px;
+    height:35px;
+    }
+   .btn-default{
+   	border-radius: 20px;
+	font-family: 'Lora', serif;
+    font-style: italic;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 90%;
+    width:200px;
+    height:28px;
+    }
 
+    .footer{
+	margin-left: 120px;
+	margin-right: 80px;
+	}
+	.footer p{
+		font-size: 14px;
+	}
+	.button2{
+	background-color: black;
+	color: white;
+    }
+    button {
+    padding: 10px 42px;
+    font-size: 13px;
+    border-width: 0.5px;
+    }
 }

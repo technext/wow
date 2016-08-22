@@ -23,9 +23,9 @@
      <div class="col-lg-6 col-xs-6" style="text-align:right">
            <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <center><a href="#">Home</a></center><hr>
-                <center><a href="#">Generic</a></center><hr>
-                <center><a href="#">Element</a></center>
+                <center><a href="index.html">Home</a></center><hr>
+                <center><a href="generic.html">Generic</a></center><hr>
+                <center><a href="element.html">Element</a></center>
                <br>
                 <ul class="menu-ul">
                   <li>
@@ -46,13 +46,16 @@
                 function openNav() {
                     document.getElementById("mySidenav").style.width = "250px";
                     document.getElementById("main").style.marginLeft = "250px";
+                    document.getElementById("features").style.backgroundColor = "rgba(0,0,0,0)";
                     document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+                    
                 }
 
                 function closeNav() {
                     document.getElementById("mySidenav").style.width = "0";
                     document.getElementById("main").style.marginLeft= "0";
                     document.body.style.backgroundColor = "white";
+                    document.getElementById("features").style.backgroundColor = "#f7f7f7";
                 }
         </script>
      </div>
@@ -93,7 +96,7 @@
    </div>
 
 
-  <div class="features">
+  <div class="features" id="features">
   <div class="container">
 
     <div class="row">
@@ -116,7 +119,7 @@
 <!-- 1st block -->
     <div class="row">
 
-        <div class="col-xs-6" >
+        <div class="col-xs-6 col-lg-6" >
             <div class="block">
                <br>
                <center>
@@ -136,7 +139,7 @@
             </div>
         	
         </div>
-        <div class="col-xs-6" >
+        <div class="col-xs-6 col-lg-6" >
             <div class="block">
                <br>
                <center>
@@ -162,7 +165,7 @@
 
     <div class="row">
 
-        <div class="col-xs-6" >
+        <div class="col-xs-6 col-lg-6" >
             <div class="block">
                <br>
                <center>
@@ -182,7 +185,7 @@
             </div>
         	
         </div>
-        <div class="col-xs-6" >
+        <div class="col-lg-6 col-xs-6" >
             <div class="block">
                <br>
                <center>
@@ -221,7 +224,7 @@
 
      <div class="row">
 
-     	<div class="col-lg-9">
+     	<div class="col-lg-9 col-xs-9">
      	  <h3>Comfotable stap holder</h3>
      	  <hr width="5%" align="left">
      	  <p class="s">
@@ -231,7 +234,7 @@
      		
      	</div>
 
-     	<div class="col-lg-3">
+     	<div class="col-lg-3 col-xs-3">
      		    <img class="round" src="assets/img/2.jpg">
      	</div>     	
     	
@@ -244,11 +247,11 @@
 
     <div class="row">
 
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-xs-3">
      		    <img class="round" src="assets/img/3.jpg">
      	</div>
 
-     	<div class="col-lg-9" >
+     	<div class="col-lg-9 col-xs-9" >
      	  <h3>Tracking with controler</h3>
      	  <hr width="5%" align="left">
      	  <p class="s">
@@ -265,7 +268,7 @@
 
      <div class="row">
 
-     	<div class="col-lg-9">
+     	<div class="col-lg-9 col-xs-9">
      	  <h3>Foam cushing</h3>
      	  <hr width="5%" align="left">
      	  <p class="s">
@@ -275,7 +278,7 @@
      		
      	</div>
 
-     	<div class="col-lg-3">
+     	<div class="col-lg-3 col-xs-3">
      		    <img class="round" src="assets/img/4.jpg">
      	</div>     	
     	
