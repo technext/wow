@@ -9,6 +9,7 @@
 		<link rel="stylesheet" type="text/css" href="myStyle/style.css">
 </head>
 <body>
+<<<<<<< HEAD
 <!-- Testing -->
 <div class="container">
      <legend>
@@ -56,6 +57,9 @@
 </div>
 <!--  Testing end-->
 <div class="features">
+=======
+<div class="features" id="features">
+>>>>>>> refs/remotes/origin/dev-nayem
  <div class="container">
  	 <legend>
      <div class="row">
@@ -66,13 +70,19 @@
          <div class="col-lg-6 col-xs-6">   
 >>>>>>> refs/remotes/origin/dev-nayem
           <img src="assets/img/logo.png">
+<<<<<<< HEAD
        </div>   
       <div class="col-lg-6 col-xs-6" style="text-align:right">
+=======
+       </div>
+       </div>
+     <div class="col-lg-6 col-xs-6" style="text-align:right">
+>>>>>>> refs/remotes/origin/dev-nayem
            <div id="mySidenav" class="sidenav">
                 <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <center><a href="#">Home</a></center><hr>
-                <center><a href="#">Generic</a></center><hr>
-                <center><a href="#">Element</a></center>
+                <center><a href="index.html">Home</a></center><hr>
+                <center><a href="generic.html">Generic</a></center><hr>
+                <center><a href="element.html">Element</a></center>
                <br>
                 <ul class="menu-ul">
                   <li>
@@ -93,13 +103,16 @@
                 function openNav() {
                     document.getElementById("mySidenav").style.width = "250px";
                     document.getElementById("main").style.marginLeft = "250px";
+                    document.getElementById("features").style.backgroundColor = "rgba(0,0,0,0)";
                     document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+                    
                 }
 
                 function closeNav() {
                     document.getElementById("mySidenav").style.width = "0";
                     document.getElementById("main").style.marginLeft= "0";
                     document.body.style.backgroundColor = "white";
+                    document.getElementById("features").style.backgroundColor = "#f7f7f7";
                 }
         </script>
      </div>
