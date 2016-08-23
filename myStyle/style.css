@@ -290,6 +290,9 @@ i.fa-heart{
     font-size: 13px;
     border-width: 0.5px;
     }
+    p.lora-font{
+	font-size: 16px;
+    }
 }
 
 /*---------------------------------------------------------------------*/
@@ -337,5 +340,8 @@ i.fa-heart{
     padding: 10px 42px;
     font-size: 13px;
     border-width: 0.5px;
+    }
+    p.lora-font{
+	font-size: 12px;
     }
 }
