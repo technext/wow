@@ -36,7 +36,7 @@ body{
 }
 
 .sidenav a:hover, .offcanvas a:focus{
-    color: #f1f1f1;
+    color: #2c2b2b;
 }
 
 .sidenav .closebtn {
@@ -53,10 +53,10 @@ body{
     padding-top: 15px;
 }
 
-@media screen and (max-height: 450px) {
+/*@media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-}
+}*/
 
 .menu-ul{
     text-align: center;
@@ -186,7 +186,7 @@ p{
 .social{
     text-align: center;
     display: block;
-    padding-top: 90px;
+    padding-top: 70px;
     padding-bottom: 70px;
 }
 .social ul{
@@ -223,7 +223,8 @@ p{
     width: 100%;
 }
 i.fa-heart{
-    transform:translateY(-10%);
+    transform:translateY(-20%);
+    margin-bottom: 0px;
 }
 .footer{
     padding-top: 35px;
@@ -262,8 +263,8 @@ i.fa-heart{
     border-radius: 30px;
     width:100%;
     margin-top: 20px;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 18px;
+    padding-bottom: 18px;
     font-size: 12px;
 }
 .call-btn-2{
@@ -271,15 +272,17 @@ i.fa-heart{
     border-radius: 25px;
     width:100%;
     margin-top: 20px;
-    padding-top: 12px;
-    padding-bottom: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     font-size: 12px;
 }
 .call-btn-3{
     border:1px solid black;
-    border-radius: 15px;
+    border-radius: 25px;
     width:100%;
     margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 12px;
 }
 .btn-line{
@@ -297,29 +300,102 @@ i.fa-heart{
 input,select,textarea{
      width: 100%;
     border:1px solid black;
-    border-radius: 20px;
+    border-radius: 30px;
     font-family: 'Lora', serif;
-    padding-top: 8px;
-    padding-bottom: 8px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     padding-left: 35px;
     margin-bottom: 30px;
 }
 textarea{
-    padding-top: 23px;
+    padding-top: 28px;
 }
 .form-section h3{
     padding-bottom: 35px;
 }
 .form-section button{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 25px;
-    padding-right: 25px;
-    font-size: 12px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 28px;
+    padding-right: 28px;
+    font-size: 13px;
     letter-spacing: 0px;
     margin-right: 5px;
     margin-bottom: 60px;
 }
 .E-image img{
     padding-top: 50px;
+}
+.wow-btn{
+     padding-top:60px;
+     padding-bottom:10px;
+}
+
+
+@media screen and (min-device-width: 481px) and (max-device-width: 1200px) {
+
+    .sub{
+    padding-right: 80px;
+    padding-left: 80px;
+    padding-bottom: 40px;   
+   }
+   .block{
+    padding-top: 30px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+   }
+   .E-h-p{
+    padding-right: 80px;
+   }
+   .footer-p1,.footer-p2{
+    padding-top: 0px;
+    font-size: 10px; 
+    }
+    .footer{
+        padding-top: 15px;
+        padding-bottom: 25px;
+    }
+}
+
+
+@media only screen and (max-device-width: 480px) {
+    .lora{
+        font-size: 18px;
+    }
+    .sub{
+    padding-right: 40px;
+    padding-left: 40px;
+    padding-bottom: 20px;   
+   }
+   .block{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+   }
+   .E-h-p{
+    padding-right: 60px;
+  }
+    .footer-p1 p,.footer-p2 p{
+    padding-top: 0px;
+    font-size: 12px;
+    letter-spacing: 0px;
+    line-height: 14px; 
+    }
+    .footer-p2 p{
+        line-height: 8px;
+    }
+    .footer{
+        padding-top: 15px;
+        padding-bottom: 25px;
+    }
+    .wow-logo{
+    padding-bottom: 10px;
+    padding-top: 40px;
+    }
+    .wow-btn{
+     padding-top:20px;
+     padding-bottom:5px;
+    }
 }
