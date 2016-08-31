@@ -14,6 +14,9 @@
         <link rel="stylesheet" type="text/css" href="myStyle/style.css">
 </head>
 <body>
+
+<div class="overlay" id="overlay"></div>
+
     <section class="head-bar">
       <div class="container">
           <div class="row">
@@ -269,15 +272,15 @@
                 function openNav() {
                     document.getElementById("mySidenav").style.width = "250px";
                     document.getElementById("main").style.marginLeft = "250px";
-                    document.getElementById("features").style.backgroundColor = "rgba(0,0,0,0)";
-                    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-                    
+                    document.getElementById("overlay").style.width = "100%";
+                    document.getElementById("overlay").style.height = "100%";
+                    document.getElementById("overlay").style.backgroundColor = "rgba(0,0,0,0.4)";            
                 }
 
                 function closeNav() {
                     document.getElementById("mySidenav").style.width = "0";
                     document.getElementById("main").style.marginLeft= "0";
-                    document.body.style.backgroundColor = "white";
-                    document.getElementById("features").style.backgroundColor = "#f7f7f7";
+                    document.getElementById("overlay").style.width = "0%";
+                    document.getElementById("overlay").style.height = "0%";
                 }
 </script>
