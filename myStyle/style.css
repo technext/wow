@@ -68,6 +68,8 @@ body{
 span{
     font-size:20px;
     cursor:pointer;
+    word-spacing: 15px;
+    font-weight: 500;
 }
 
 body {
