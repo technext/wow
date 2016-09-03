@@ -97,7 +97,7 @@ body {
 }
 .full-screen{
     min-height: 100vh;
-    background-image: url('D:/Technext/Git_projects/wow/assets/img/1.jpg');
+    background-image: url('../assets/img/1.jpg');
     position: relative;
     background-position: bottom;
     background-repeat: no-repeat;
