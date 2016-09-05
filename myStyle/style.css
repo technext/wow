@@ -84,6 +84,8 @@ body {
 .wow-logo{
     padding-bottom: 2vh;
     padding-top:10vh;
+    text-align: center;
+    align-items: center;
 }
 .img-logo{
     max-height: 15vh;
@@ -254,6 +256,7 @@ i.fa-heart{
 .footer{
     padding-top: 35px;
     padding-bottom: 45px;
+    border-top: 1px solid #cccccc;
 }
 .generic-page{
     background-color: #f7f7f7; 
@@ -315,7 +318,7 @@ i.fa-heart{
 .btn-line{
     padding-top: 5px;
 }
-.btn-line button:hover{
+.btn-line a:hover{
     color:white;
     background-color: black;
     transition: .5s;
