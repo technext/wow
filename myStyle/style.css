@@ -462,4 +462,29 @@ textarea{
         padding: auto;
 
     }
+    .generic{
+    padding-top: 35px;
+    }
+    .generic img{
+    padding-top: 30px;
+    }
+    h1{
+    font-size: 40px;
+    }
+    h2{
+        font-size:30px;
+    }
+    h3{
+        font-size: 23px;
+    }
+    h4{
+        font-size: 20px;
+    }
+    h5{
+        font-size: 100%;
+    }
+    h6{
+        font-size: 100%;
+    }
+    
 }
