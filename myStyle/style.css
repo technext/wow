@@ -332,6 +332,9 @@ i.fa-heart{
 .form-section{
     padding-top: 56px;
 }
+.col-block{
+     padding-left:0px;padding-right:0px;
+}
 
 input,select,textarea{
      width: 100%;
