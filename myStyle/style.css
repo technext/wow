@@ -87,6 +87,8 @@ body {
 }
 .img-logo{
     max-height: 15vh;
+    margin-left: auto;
+    margin-right: auto;
 }
 .helmet{
     max-height: 5vh;
@@ -136,9 +138,13 @@ button:hover{
 }
 hr{
     background-color: #c7c7c7; height: 1px; border: 0;
+    margin-top: 1vh;
 }
 h1,h2,h4,h3,h5,span,button{
     font-family: 'Poppins', sans-serif;
+}
+span{
+    font-size: 16px;
 }
 h1{
     font-size: 55px;
@@ -180,6 +186,8 @@ h6{
     width: 60px;
     height: 60px;
     border-radius: 100%;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 i{
@@ -254,13 +262,14 @@ i.fa-heart{
 .footer{
     padding-top: 35px;
     padding-bottom: 45px;
+    border-top: 1px solid #cccccc;
 }
 .generic-page{
     background-color: #f7f7f7; 
     padding-bottom: 30px;
 }
 .generic{
-    padding-top: 95px;
+    padding-top: 50px;
 }
 .img-generic{
     padding-top: 75px;
@@ -315,7 +324,7 @@ i.fa-heart{
 .btn-line{
     padding-top: 5px;
 }
-.btn-line button:hover{
+.btn-line a:hover{
     color:white;
     background-color: black;
     transition: .5s;
@@ -357,7 +366,20 @@ textarea{
      padding-top:4vh;
      padding-bottom:2vh;
 }
-
+.feature-pad,.why-pad,.step-pad{
+     padding-top:50px;
+     padding-bottom:0px;
+}
+.buy-pad{
+     padding-bottom:90px;
+}
+.foot-img{
+    margin-right: auto;
+    margin-left: auto;
+}
+.why-div{
+    margin-bottom:35px;
+}
 
 @media screen and (min-device-width: 481px) and (max-device-width: 1200px) {
 
@@ -469,10 +491,10 @@ textarea{
     padding-top: 30px;
     }
     h1{
-    font-size: 40px;
+    font-size: 38px;
     }
     h2{
-        font-size:30px;
+        font-size:33px;
     }
     h3{
         font-size: 23px;
@@ -485,6 +507,9 @@ textarea{
     }
     h6{
         font-size: 100%;
+    }
+    .E-h-1{
+        padding-top: 2vh;
     }
     
 }
