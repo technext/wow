@@ -269,10 +269,10 @@ i.fa-heart{
     padding-bottom: 30px;
 }
 .generic{
-    padding-top: 50px;
+    padding-top: 25px;
 }
 .img-generic{
-    padding-top: 75px;
+    padding-top: 15px;
     width: 100%;
     margin: 0px;
     padding-bottom: 60px;
@@ -286,10 +286,10 @@ i.fa-heart{
     background-color: #f7f7f7; 
 }
 .element-page{
-    padding-top: 50px;
+    padding-top: 25px;
 }
 .E-h{
-    padding-top: 40px;
+    padding-top: 15px;
 }
 .E-h-p{
     padding-right: 380px;
@@ -331,6 +331,9 @@ i.fa-heart{
 }
 .form-section{
     padding-top: 56px;
+}
+.col-block{
+     padding-left:0px;padding-right:0px;
 }
 
 input,select,textarea{
@@ -380,7 +383,30 @@ textarea{
 .why-div{
     margin-bottom:35px;
 }
-
+.line-full{
+    margin-top:50px;margin-bottom:50px;
+}
+.hr-short{
+     width:5%;
+     margin-left: 0px;
+}
+.hr-mid{
+    width: 6%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blockquote-row{
+ padding-left:12px;
+}
+.blockquote-side{
+     border-left:thick solid black;padding-top:8px;
+}
+.blockquote-side.lora{
+    margin-left:12px;
+}
+.E-social{
+    text-align:left;padding-top:36px;padding-bottom:0px;
+}
 @media screen and (min-device-width: 481px) and (max-device-width: 1200px) {
 
     .sub{
@@ -485,10 +511,10 @@ textarea{
 
     }
     .generic{
-    padding-top: 35px;
+    padding-top: 15px;
     }
     .generic img{
-    padding-top: 30px;
+    padding-top: 10px;
     }
     h1{
     font-size: 38px;
