@@ -269,10 +269,10 @@ i.fa-heart{
     padding-bottom: 30px;
 }
 .generic{
-    padding-top: 50px;
+    padding-top: 25px;
 }
 .img-generic{
-    padding-top: 75px;
+    padding-top: 15px;
     width: 100%;
     margin: 0px;
     padding-bottom: 60px;
@@ -286,10 +286,10 @@ i.fa-heart{
     background-color: #f7f7f7; 
 }
 .element-page{
-    padding-top: 50px;
+    padding-top: 25px;
 }
 .E-h{
-    padding-top: 40px;
+    padding-top: 15px;
 }
 .E-h-p{
     padding-right: 380px;
@@ -485,10 +485,10 @@ textarea{
 
     }
     .generic{
-    padding-top: 35px;
+    padding-top: 15px;
     }
     .generic img{
-    padding-top: 30px;
+    padding-top: 10px;
     }
     h1{
     font-size: 38px;
