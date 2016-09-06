@@ -383,7 +383,30 @@ textarea{
 .why-div{
     margin-bottom:35px;
 }
-
+.line-full{
+    margin-top:50px;margin-bottom:50px;
+}
+.hr-short{
+     width:5%;
+     margin-left: 0px;
+}
+.hr-mid{
+    width: 6%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.blockquote-row{
+ padding-left:12px;
+}
+.blockquote-side{
+     border-left:thick solid black;padding-top:8px;
+}
+.blockquote-side.lora{
+    margin-left:12px;
+}
+.E-social{
+    text-align:left;padding-top:36px;padding-bottom:0px;
+}
 @media screen and (min-device-width: 481px) and (max-device-width: 1200px) {
 
     .sub{
