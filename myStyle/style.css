@@ -4,6 +4,9 @@ html, body{
 body{
   position: relative;
 }
+*{
+    outline: none;
+}
 .overlay{
   position: absolute;
   top: 0;
