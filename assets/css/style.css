@@ -541,9 +541,6 @@ textarea{
     h6{
         font-size: 100%;
     }
-    .E-h-1{
-        padding-top: 2vh;
-    }
 }
 @media only screen and (max-height: 400px){
     .head-bar{
