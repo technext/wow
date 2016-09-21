@@ -176,12 +176,22 @@ h6{
 .block{
     border-style: solid;
     border-color: #dcd9d9;
-    border-width: 0.5px;
+    border-width: 1px;
     margin-right: 0px;
     padding-top: 50px;
     padding-bottom: 30px;
     padding-left: 150px;
     padding-right: 150px;
+}
+.block-first{
+    border-right: none;
+    border-bottom: none;
+}
+.block-second{
+    border-bottom: none;
+}
+.block-third{
+    border-right: none;
 }
 .block p{
     line-height: 22px;
@@ -571,4 +581,5 @@ textarea{
          padding-top:10vh;
          padding-bottom:4vh;
     }
+    
 }
