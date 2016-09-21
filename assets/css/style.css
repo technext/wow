@@ -168,7 +168,7 @@ h5{
 h6{
     font-size: 100%;
 }
-.sub{
+.sub-text{
     padding-right: 280px;
     padding-left: 280px;
     padding-bottom: 30px;   
@@ -213,7 +213,7 @@ i{
 p{
     font-size: 16px; 
 }
-.round{
+.round-img{
     display: table;
     width: 250px;
     height: 250px;
@@ -295,10 +295,10 @@ i.fa-heart{
 .element-page{
     padding-top: 25px;
 }
-.E-h{
+.Element-heading{
     padding-top: 15px;
 }
-.E-h-p{
+.Element-heading-para{
     padding-right: 380px;
 }
 .call-btn-1{
@@ -416,7 +416,7 @@ textarea{
 }
 @media screen and (min-width: 481px) and (max-width: 1200px) {
 
-    .sub{
+    .sub-text{
     padding-right: 80px;
     padding-left: 80px;
     padding-bottom: 40px;   
@@ -427,7 +427,7 @@ textarea{
     padding-left: 30px;
     padding-right: 30px;
    }
-   .E-h-p{
+   .Element-heading-para{
     padding-right: 80px;
    }
    .footer-p1,.footer-p2{
@@ -445,7 +445,7 @@ textarea{
     .font-1{
         font-size: 18px;
     }
-    .sub{
+    .sub-text{
     padding-right: 40px;
     padding-left: 40px;
     padding-bottom: 20px;   
@@ -456,7 +456,7 @@ textarea{
     padding-left: 40px;
     padding-right: 40px;
    }
-   .E-h-p{
+   .Element-heading-para{
     padding-right: 60px;
   }
     .footer-p1 p,.footer-p2 p{
