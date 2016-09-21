@@ -135,7 +135,7 @@ button:hover{
     background-color: #2d2d2d;
     transition: .5s;
 }
-.para-sm{
+.font-1{
     font-family: 'Lora', serif;
     font-style: italic;
     font-size: 21px;
@@ -205,7 +205,7 @@ i{
         transform: translateY(50%);
         
 }
-.s{
+.font-2{
     font-family: 'Crimson Text', serif;
     font-size: 16px;
     line-height: 30px;
@@ -408,7 +408,7 @@ textarea{
 .blockquote-side{
      border-left:thick solid black;padding-top:8px;
 }
-.blockquote-side.para-sm{
+.blockquote-side.font-1{
     margin-left:12px;
 }
 .E-social{
@@ -442,7 +442,7 @@ textarea{
 
 
 @media only screen and (max-width: 480px) {
-    .para-sm{
+    .font-1{
         font-size: 18px;
     }
     .sub{
