@@ -135,7 +135,7 @@ button:hover{
     background-color: #2d2d2d;
     transition: .5s;
 }
-.lora{
+.para-sm{
     font-family: 'Lora', serif;
     font-style: italic;
     font-size: 21px;
@@ -408,7 +408,7 @@ textarea{
 .blockquote-side{
      border-left:thick solid black;padding-top:8px;
 }
-.blockquote-side.lora{
+.blockquote-side.para-sm{
     margin-left:12px;
 }
 .E-social{
@@ -442,7 +442,7 @@ textarea{
 
 
 @media only screen and (max-width: 480px) {
-    .lora{
+    .para-sm{
         font-size: 18px;
     }
     .sub{
@@ -544,7 +544,6 @@ textarea{
     .E-h-1{
         padding-top: 2vh;
     }
-    
 }
 @media only screen and (max-height: 400px){
     .head-bar{
