@@ -146,7 +146,11 @@ body {
     font-style: italic;
     font-size: 21px;
 }
-.features{
+.hr-social{
+    margin:0px;
+    margin-top: 30px;
+}
+.index-part-2{
     background-color: #f7f7f7;
 }
 hr{
