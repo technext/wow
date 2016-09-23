@@ -11,12 +11,13 @@
     <link href="https://fonts.googleapis.com/css?family=Lora:400i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="myStyle/style.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script type="text/javascript" src="assets/js/script.js" ></script>
     <title>WOW - Generic</title>
 </head>
 <body>
-
-<div class="overlay" id="overlay"></div>
+<!-- div used to make the body blur -->
+<div class="overlay" id="overlay" onclick="closeNav()"></div>
 
     <section class="generic-page">
      <section class="head-bar">
@@ -33,7 +34,7 @@
                     <a href="element.html">Element</a>              
                 </div>
                   <div class="main" id="main">
-                    <span onclick="openNav()">MENU &#9776;</span>
+                    <a href="#" onclick="openNav()">MENU &#9776;</a>
                   </div>
               </div>
             </div>
@@ -46,7 +47,7 @@
           <hr class="hr-mid">
             <img class="img-generic img-responsive" src="assets/img/5.jpg">
         </section>
-        <section class="s">
+        <section class="font-2">
             <p class="generic-p">
             Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique.
             </p> 
@@ -73,7 +74,7 @@
         <div class="row">
           <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
             <div class="footer-p1">
-                    <p class="s">Copy right 2016 by wow technology</p>
+                    <p class="font-2">Copy right 2016 by wow technology</p>
             </div>
           </div>
           <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
@@ -81,7 +82,7 @@
           </div>
           <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
             <div class="footer-p2" >
-                     <p class="s">Made with  <i class="fa fa-heart" aria-hidden="true" ></i> by themewagon</p>
+                     <p class="font-2">Made with  <i class="fa fa-heart" aria-hidden="true" ></i> by themewagon</p>
             </div>
           </div>
         </div>
@@ -90,21 +91,3 @@
 
 </body>
 </html>
-
-<script>
-                function openNav() {
-                    document.getElementById("mySidenav").style.width = "250px";
-                    document.getElementById("main").style.marginLeft = "20px";
-                    document.getElementById("main").style.marginLeft = "20px";
-                    document.getElementById("overlay").style.width = "100%";
-                    document.getElementById("overlay").style.height = "100%";
-                    document.getElementById("overlay").style.backgroundColor = "rgba(0,0,0,0.4)";            
-                }
-
-                function closeNav() {
-                    document.getElementById("mySidenav").style.width = "0";
-                    document.getElementById("main").style.marginLeft= "0";
-                    document.getElementById("overlay").style.width = "0%";
-                    document.getElementById("overlay").style.height = "0%";
-                }
-</script>
