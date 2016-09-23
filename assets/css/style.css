@@ -4,6 +4,9 @@ html, body{
 body{
   position: relative;
 }
+*{
+    outline: none;
+}
 .overlay{
   position: absolute;
   top: 0;
@@ -23,16 +26,28 @@ body{
     background-color: white;
     overflow-x: hidden;
     transition: 0.5s;
-    padding-top: 60px;
+    padding-top: 5%;
 }
+.main a{
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    cursor:pointer;
+    word-spacing: 10px;
+    font-weight: 500;
 
+}
 .sidenav a {
-    padding: 8px 8px 8px 32px;
+    padding: 5%;
     text-decoration: none;
     font-size: 25px;
     color: #818181;
     display: block;
     transition: 0.3s;
+}
+.sidenav hr{
+    margin-bottom: 5px;
+    margin-top: 6px;
 }
 
 .sidenav a:hover, .offcanvas a:focus{
@@ -64,14 +79,6 @@ body{
 .menu-ul li{
     list-style-type: none;
 }
-
-span{
-    font-size:20px;
-    cursor:pointer;
-    word-spacing: 15px;
-    font-weight: 500;
-}
-
 body {
     background-color: #fefefe;
     transition: background-color .5s;
@@ -93,13 +100,9 @@ body {
 .helmet{
     max-height: 5vh;
 }
-.btn-1{
-    padding-top: 3vh;
-    padding-bottom: 2vh;
-}
-.full-screen{
+.head{
     min-height: 100vh;
-    background-image: url('../assets/img/1.jpg');
+    background-image: url('../img/1.jpg');
     position: relative;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -109,11 +112,10 @@ body {
     text-align: bottom;
 
 }
-button {
+/*button {
     background-color: #fefefe;
     border-color: black;
     color: black;
-    padding: 18px 60px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -122,29 +124,41 @@ button {
     border-width: 1px;
     letter-spacing: 2px;
 
+}*/
+.wow-button{
+    padding: 3vh 10vh;
+    border: solid 1px black;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50px;
+    letter-spacing: 2px;
 }
-button:hover{
+.wow-button:hover{
     color: #ffffff;
     background-color: #2d2d2d;
     transition: .5s;
 }
-.lora{
+.font-1{
     font-family: 'Lora', serif;
     font-style: italic;
     font-size: 21px;
 }
-.features{
+.hr-social{
+    margin:0px;
+    margin-top: 30px;
+}
+.index-part-2{
     background-color: #f7f7f7;
 }
 hr{
     background-color: #c7c7c7; height: 1px; border: 0;
     margin-top: 1vh;
 }
-h1,h2,h4,h3,h5,span,button{
+h1,h2,h4,h3,h5,a,button{
     font-family: 'Poppins', sans-serif;
-}
-span{
-    font-size: 16px;
 }
 h1{
     font-size: 55px;
@@ -164,20 +178,33 @@ h5{
 h6{
     font-size: 100%;
 }
-.sub{
-    padding-right: 280px;
-    padding-left: 280px;
-    padding-bottom: 30px;   
+.sub-text{
+    padding-right: 25%;
+    padding-left: 25%;
+    padding-bottom: 3%;   
 }
 .block{
     border-style: solid;
     border-color: #dcd9d9;
-    border-width: 0.5px;
+    border-width: 1px;
     margin-right: 0px;
-    padding-top: 50px;
-    padding-bottom: 30px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-top: 8%;
+    padding-bottom: 5%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.block-first{
+    border-right: none;
+    border-bottom: none;
+}
+.block-second{
+    border-bottom: none;
+}
+.block-third{
+    border-right: none;
+}
+.block p{
+    line-height: 22px;
 }
 .icon{
     background-color: #2d2d2d;
@@ -198,7 +225,7 @@ i{
         transform: translateY(50%);
         
 }
-.s{
+.font-2{
     font-family: 'Crimson Text', serif;
     font-size: 16px;
     line-height: 30px;
@@ -206,7 +233,7 @@ i{
 p{
     font-size: 16px; 
 }
-.round{
+.round-img{
     display: table;
     width: 250px;
     height: 250px;
@@ -219,8 +246,8 @@ p{
 .social{
     text-align: center;
     display: block;
-    padding-top: 70px;
-    padding-bottom: 70px;
+    padding-top: 6%;
+    padding-bottom: 5%;
 }
 .social ul{
     padding-left: 0px;
@@ -288,10 +315,10 @@ i.fa-heart{
 .element-page{
     padding-top: 25px;
 }
-.E-h{
+.Element-heading{
     padding-top: 15px;
 }
-.E-h-p{
+.Element-heading-para{
     padding-right: 380px;
 }
 .call-btn-1{
@@ -361,6 +388,13 @@ textarea{
     letter-spacing: 0px;
     margin-right: 5px;
     margin-bottom: 60px;
+    border-radius: 50px;
+    border:solid 1px black;
+}
+.form-section button:hover{
+    color: #ffffff;
+    background-color: #2d2d2d;
+    transition: .5s;
 }
 .E-image img{
     padding-top: 50px;
@@ -396,31 +430,27 @@ textarea{
     margin-right: auto;
 }
 .blockquote-row{
- padding-left:12px;
+ padding-left:2%;
+ padding-right: 18%;
 }
 .blockquote-side{
      border-left:thick solid black;padding-top:8px;
 }
-.blockquote-side.lora{
+.blockquote-side.font-1{
     margin-left:12px;
 }
 .E-social{
     text-align:left;padding-top:36px;padding-bottom:0px;
 }
-@media screen and (min-device-width: 481px) and (max-device-width: 1200px) {
+@media screen and (min-width: 481px) and (max-width: 1200px) {
 
-    .sub{
-    padding-right: 80px;
-    padding-left: 80px;
-    padding-bottom: 40px;   
-   }
    .block{
     padding-top: 30px;
     padding-bottom: 15px;
     padding-left: 30px;
     padding-right: 30px;
    }
-   .E-h-p{
+   .Element-heading-para{
     padding-right: 80px;
    }
    .footer-p1,.footer-p2{
@@ -434,22 +464,17 @@ textarea{
 }
 
 
-@media only screen and (max-device-width: 480px) {
-    .lora{
+@media only screen and (max-width: 480px) {
+    .font-1{
         font-size: 18px;
     }
-    .sub{
-    padding-right: 40px;
-    padding-left: 40px;
-    padding-bottom: 20px;   
-   }
-   .block{
+/*   .block{
     padding-top: 30px;
     padding-bottom: 20px;
     padding-left: 40px;
     padding-right: 40px;
-   }
-   .E-h-p{
+   }*/
+   .Element-heading-para{
     padding-right: 60px;
   }
     .footer-p1 p,.footer-p2 p{
@@ -534,8 +559,37 @@ textarea{
     h6{
         font-size: 100%;
     }
-    .E-h-1{
-        padding-top: 2vh;
+}
+
+/*This section for small height device*/
+@media only screen and (max-height: 400px){
+    .head-bar{
+        padding-top: 1vh;
+        max-height: 10vh;
+    }
+    .wow-logo{
+        padding-bottom: 2vh;
+        padding-top:10vh;
+    }
+    .img-logo{
+        max-height: 30vh;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .helmet{
+        max-height: 20vh;
+    }
+    .btn-1{
+        padding-top: 3vh;
+        padding-bottom: 3vh;
+    }
+    .head{
+        min-height: 150vh;
+        background-size:60vh;
+    }
+        .wow-btn{
+         padding-top:10vh;
+         padding-bottom:4vh;
     }
     
 }

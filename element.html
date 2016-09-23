@@ -11,12 +11,13 @@
         <link href="https://fonts.googleapis.com/css?family=Lora:400i" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Poppins" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Crimson+Text" rel="stylesheet">
-        <link rel="stylesheet" type="text/css" href="myStyle/style.css">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <script type="text/javascript" src="assets/js/script.js" ></script>
         <title>WOW - Element</title>
 </head>
 <body>
-
-<div class="overlay" id="overlay"></div>
+<!-- div used to make the body blur -->
+<div class="overlay" id="overlay" onclick="closeNav()"></div>
 
     <section class="element-full">
         <section class="head-bar">
@@ -33,7 +34,7 @@
                     <a href="element.html">Element</a>              
                 </div>
                     <div class="main" id="main">
-                      <span onclick="openNav()">MENU &#9776;</span>
+                      <a href="#" onclick="openNav()">MENU &#9776;</a>
                     </div>
                 </div>
               </div>
@@ -45,37 +46,37 @@
             <h2 class="text-center">Element</h2>
             <hr class="hr-mid">
 
-            <section class="E-h">
+            <section class="Element-heading">
               <h1>Heading 1 With Paragraph</h1>
-              <p class="E-h-p s">
+              <p class="Element-heading-para font-2">
                 Lorem Ipsum available, but the majority have suffered This alteration in some form, by injected is a humour, or randomised words which don`t look even sligh is made  believable. If  to use and yammi passage of Lorem Ipsum, you need to be sure there isn`t by pioneer designer anything embarrassing hidden in the middle of text.
               </p>
             </section>
-            <section class="E-h">
+            <section class="Element-heading">
                 <h2>Heading 2 With Paragraph</h2>
-                <p class="E-h-p s">
+                <p class="Element-heading-para font-2">
                   Lorem Ipsum available, but the majority have suffered This alteration in some form, by injected is a humour, or randomised words which don`t look even sligh is made  believable. If  to use and yammi passage of Lorem Ipsum, you need to be sure there isn`t by pioneer designer anything embarrassing hidden in the middle of text.
                 </p>
             </section>
-            <section class="E-h">
+            <section class="Element-heading">
                 <h3>Heading 3 With Paragraph</h3>
-                <p class="E-h-p s">
+                <p class="Element-heading-para font-2">
                   Lorem Ipsum available, but the majority have suffered This alteration in some form, by injected is a humour, or randomised words which don`t look even sligh is made  believable. If  to use and yammi passage of Lorem Ipsum, you need to be sure there isn`t by pioneer designer anything embarrassing hidden in the middle of text.
                 </p>
             </section>
-            <section class="E-h">
+            <section class="Element-heading">
               <h3>Blockquote</h3>
               <div class="row">
               <div class="col-xs-12 col-lg-12 col-sm-12 col-md-12 blockquote-row">
                   <div class="col-xs-12 col-lg-12 col-sm-12 col-md-12 blockquote-side">
-                    <p class="lora">
-                      Injected humour, or randomised words which don`t look even sligh is made<br>
+                    <p class="font-1">
+                      Injected humour, or randomised words which don`t look even sligh is made
                       believable If  to use and passage of Lorem Ipsum.
                     </p>
                   </div>
               </div>
             </section>
-            <section class="E-h">
+            <section class="Element-heading">
               <h3>Social icon</h3>
                   <section class="social E-social">
                     <ul>
@@ -86,7 +87,7 @@
                     </ul>
                   </section>
             </section>
-            <section class="E-h">
+            <section class="Element-heading">
               <h3>Call for action</h3>
                   <div class="row btn-line">
                     <div class="col-lg-3 col-md-3 col-sm-3 col-xs-11">
@@ -136,8 +137,8 @@
                     <textarea rows="14" id="comment" placeholder="Message" ></textarea>
                   </div> 
                   </div>
-                  <button>Send massage</button>
-                  <button>Cancel</button>
+                  <button type="submit" class="btn btn-default">Send massage</button>
+                  <button type="submit" class="btn btn-default">Cancel</button>
                 </fieldset>
               </form>
             </section>
@@ -150,8 +151,8 @@
                      <h2>Why wow</h2>
               </div>
                    <hr class="hr-mid">
-                   <div class="sub text-center">
-                         <p class="lora">
+                   <div class="sub-text text-center">
+                         <p class="font-1">
                             Sed varius suspendisse dictum leo ipsum amet pellentesque
                             fusce ac hendrerit consectetur tempor lorem ipsum
                          </p>
@@ -162,7 +163,7 @@
                  <div class="holder-para">
                   <h3>Comfortable stap holder</h3>
                   <hr class="hr-short">
-                  <p class="s">
+                  <p class="font-2">
                         The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed 
                         is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother’s keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I 
                   </p>
@@ -170,7 +171,7 @@
                 </div>
                 <div class="col-lg-3 col-xs-12 col-sm-12 col-md-3">
                         <div class="holder-img">
-                          <img class="round img-responsive center-block" src="assets/img/2.jpg">
+                          <img class="round-img img-responsive center-block" src="assets/img/2.jpg">
                         </div>
                 </div>
             </div>
@@ -182,7 +183,7 @@
                  <div class="holder-para">
                   <h3>Tracking with controler</h3>
                   <hr class="hr-short">
-                  <p class="s">
+                  <p class="font-2">
                     The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed 
                     is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother’s keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I 
                   </p>
@@ -190,7 +191,7 @@
                 </div>
                 <div class="col-lg-3 col-xs-12 col-sm-12 col-md-3 col-md-pull-9">
                         <div class="holder-img">
-                          <img class="round img-responsive center-block" src="assets/img/3.jpg">
+                          <img class="round-img img-responsive center-block" src="assets/img/3.jpg">
                         </div>
                 </div> 
             </div>
@@ -202,7 +203,7 @@
                  <div class="holder-para">
                   <h3>Foam cushing</h3>
                   <hr class="hr-short">
-                  <p class="s">
+                  <p class="font-2">
                         The path of the righteous man is beset on all sides by the iniquities of the selfish and the tyranny of evil men. Blessed 
                         is he who, in the name of charity and good will, shepherds the weak through the valley of darkness, for he is truly his brother’s keeper and the finder of lost children. And I will strike down upon thee with great vengeance and furious anger those who would attempt to poison and destroy My brothers. And you will know My name is the Lord when I  
                   </p>
@@ -210,7 +211,7 @@
                 </div>
                 <div class="col-lg-3 col-xs-12 col-sm-12 col-md-3">
                         <div class="holder-img">
-                          <img class="round img-responsive center-block" src="assets/img/2.jpg">
+                          <img class="round-img img-responsive center-block" src="assets/img/2.jpg">
                         </div>
                 </div>
             </div>
@@ -230,7 +231,7 @@
             <div class="row">
               <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
                 <div class="footer-p1">
-                        <p class="s">Copy right 2016 by wow technology</p>
+                        <p class="font-2">Copy right 2016 by wow technology</p>
                 </div>
               </div>
               <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2">
@@ -238,7 +239,7 @@
               </div>
               <div class="col-lg-5 col-md-5 col-sm-5 col-xs-5">
                 <div class="footer-p2" >
-                         <p class="s">Made with  <i class="fa fa-heart" aria-hidden="true" ></i> by themewagon</p>
+                         <p class="font-2">Made with  <i class="fa fa-heart" aria-hidden="true" ></i> by themewagon</p>
                 </div>
               </div>
             </div>
@@ -248,20 +249,3 @@
 </body>
 </html>
 
-<script>
-               function openNav() {
-                    document.getElementById("mySidenav").style.width = "250px";
-                    document.getElementById("main").style.marginLeft = "20px";
-                    document.getElementById("main").style.marginLeft = "20px";
-                    document.getElementById("overlay").style.width = "100%";
-                    document.getElementById("overlay").style.height = "100%";
-                    document.getElementById("overlay").style.backgroundColor = "rgba(0,0,0,0.4)";            
-                }
-
-                function closeNav() {
-                    document.getElementById("mySidenav").style.width = "0";
-                    document.getElementById("main").style.marginLeft= "0";
-                    document.getElementById("overlay").style.width = "0%";
-                    document.getElementById("overlay").style.height = "0%";
-                }
-</script>
