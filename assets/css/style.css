@@ -150,7 +150,11 @@ body {
     margin:0px;
     margin-top: 30px;
 }
-.index-part-2{
+.index-part-2,.index-part-4,.index-part-3{
+    padding-top: 50px;
+    padding-bottom: 60px;
+}
+.index-part-2,.index-part-4{
     background-color: #f7f7f7;
 }
 hr{
@@ -305,7 +309,7 @@ i.fa-heart{
     padding-bottom: 60px;
 }
 .generic-p{
-    padding-bottom: 40px;
+    padding-bottom: 20px;
     font-size: 18px;
 
 }
@@ -403,13 +407,6 @@ textarea{
      padding-top:4vh;
      padding-bottom:2vh;
 }
-.feature-pad,.why-pad,.step-pad{
-     padding-top:50px;
-     padding-bottom:0px;
-}
-.buy-pad{
-     padding-bottom:90px;
-}
 .foot-img{
     margin-right: auto;
     margin-left: auto;
@@ -442,6 +439,10 @@ textarea{
 .E-social{
     text-align:left;padding-top:36px;padding-bottom:0px;
 }
+.footer-p2 a{
+    color: black;
+    font-size: 14px;
+}
 @media screen and (min-width: 481px) and (max-width: 1200px) {
 
    .block{
@@ -460,6 +461,9 @@ textarea{
     .footer{
         padding-top: 15px;
         padding-bottom: 25px;
+    }
+    .footer-p2 a{
+    font-size: 12px;
     }
 }
 
@@ -485,6 +489,9 @@ textarea{
     }
     .footer-p2 p{
         line-height: 8px;
+    }
+    .footer-p2 a{
+    font-size: 10px;
     }
     .footer{
         padding-top: 15px;
