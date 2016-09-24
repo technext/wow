@@ -34,16 +34,17 @@ body{
     font-size: 16px;
     cursor:pointer;
     word-spacing: 10px;
-    font-weight: 500;
+    font-weight: 600;
 
 }
 .sidenav a {
     padding: 5%;
     text-decoration: none;
-    font-size: 25px;
     color: #818181;
     display: block;
     transition: 0.3s;
+    font-size: 16px;
+    letter-spacing: 2px;
 }
 .sidenav hr{
     margin-bottom: 5px;
@@ -126,7 +127,7 @@ body {
 
 }*/
 .wow-button{
-    padding: 3vh 10vh;
+    padding: 16px 60px;
     border: solid 1px black;
     color: black;
     text-align: center;
@@ -208,7 +209,8 @@ h6{
     border-right: none;
 }
 .block p{
-    line-height: 22px;
+    line-height: 28px;
+    padding-top: 10px;
 }
 .icon{
     background-color: #2d2d2d;
@@ -233,9 +235,6 @@ i{
     font-family: 'Crimson Text', serif;
     font-size: 16px;
     line-height: 30px;
-}
-p{
-    font-size: 16px; 
 }
 .round-img{
     display: table;
